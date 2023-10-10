@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "parserOptions": {
     "ecmaVersion": 2017
@@ -57,63 +56,3 @@
     ]
   }
 }
-=======
-{
-  "parserOptions": {
-    "ecmaVersion": 2021
-  },
-  "env": {
-    "es6": true,
-    "node": true
-  },
-  "extends": "eslint:recommended",
-  "rules": {
-    "no-console": "off",
-    "indent": [
-      "error",
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "warn",
-      "double"
-    ],
-    "semi": [
-      "warn",
-      "always"
-    ],
-    "keyword-spacing": [
-      "error", {
-        "before": true,
-        "after": true
-      }
-    ],
-    "space-before-blocks": [
-      "error", {
-        "functions":"always",
-        "keywords": "always",
-        "classes": "always"
-      }
-    ],
-    "space-before-function-paren": [
-      "error", {
-        "anonymous": "never",
-        "named": "never",
-        "asyncArrow": "always"
-      }
-    ],
-    "prefer-const": [
-      "error", {
-        "destructuring": "any",
-        "ignoreReadBeforeAssign": false
-      }
-    ]
-  }
-}
->>>>>>> 725fc1460ca276282c27a775b5f9915154983ecc
